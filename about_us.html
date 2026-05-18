@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lamech</title>
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+    <!-- stylesheet -->
+     <link rel="stylesheet" href="/app.css">
+    <!-- script -->
+     <link rel="script" href="/script.js">
+    <!-- Boostrap CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Boostrap Icon -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Dental Loader -->
+  <div id="pageLoader">
+    <div class="dental-loader">
+      <i class="bi bi-heart-pulse-fill"></i>
+    </div>
+  </div>
+        <!-- navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid px-4">
+
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="images/logo.png" alt="Lamech Logo" class="logo-img">
+    </a>
+
+    <!-- Mobile Toggle -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <!-- Navigation Links -->
+      <ul class="navbar-nav mx-auto">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="about_us.html">About Us</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             role="button"
+             data-bs-toggle="dropdown">
+            Services
+          </a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="interior_design.html">Interior Design</a></li>
+            <li><a class="dropdown-item" href="dental_equpiment_service.html">Dental Equipment Services</a></li>
+            <!-- <li><a class="dropdown-item" href="#">Installation</a></li> -->
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="rental.html">Rental</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Refurbished Products</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacts</a>
+        </li>
+
+      </ul>
+
+      <!-- Appointment Button -->
+      <a href="#" class="appointment-btn">
+        <i class="bi bi-calendar-event"></i>
+        Contact Now
+      </a>
+
+    </div>
+  </div>
+</nav>
+
+<!-- ABOUT US SECTION -->
+<section class="about-section py-5">
+
+  <div class="container">
+
+    <div class="row align-items-center g-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6">
+
+        <span class="about-tag">
+          ABOUT LAMECH
+        </span>
+
+        <h2 class="about-title">
+          Designing Modern Dental Clinics <br>
+          That Inspire Confidence & Care
+        </h2>
+
+        <p class="about-text">
+          <strong>LAMECH Med Solutions</strong> is dedicated to helping dental
+          professionals create world-class clinic environments that combine
+          functionality, innovation, and aesthetics. From advanced dental
+          equipment solutions to modern interior concepts, we provide everything
+          needed to build a professional and patient-friendly dental space.
+        </p>
+
+        <p class="about-text">
+          Whether you’re building an entirely new dental clinic or upgrading an
+          existing practice, our experienced team delivers customized planning,
+          interior design, operatory layouts, and complete turnkey solutions
+          tailored to your workflow and brand identity.
+        </p>
+
+        <p class="about-text">
+          We artistically blend modern dental design concepts with practical
+          functionality to create clinics that enhance patient comfort,
+          maximize efficiency, and reflect your unique vision.
+        </p>
+
+        <!-- FEATURES -->
+        <div class="about-features">
+
+          <div class="feature-box">
+            <i class="bi bi-check-circle-fill"></i>
+            Complete Dental Clinic Planning
+          </div>
+
+          <div class="feature-box">
+            <i class="bi bi-check-circle-fill"></i>
+            Premium Interior & Equipment Solutions
+          </div>
+
+          <div class="feature-box">
+            <i class="bi bi-check-circle-fill"></i>
+            Innovative & Modern Clinic Designs
+          </div>
+
+          <div class="feature-box">
+            <i class="bi bi-check-circle-fill"></i>
+            End-to-End Project Execution
+          </div>
+
+        </div>
+
+        <!-- CONTACT BOX -->
+        <div class="about-contact">
+
+          <h4>
+            Let LAMECH Turn Your Dream Clinic Into Reality!
+          </h4>
+
+          <p>
+            Call today to schedule your facility planning and interior design consultation.
+          </p>
+
+          <a href="tel:9566033122" class="about-btn">
+            <i class="bi bi-telephone-fill"></i>
+            Call Now : 9566033122
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDE CAROUSEL -->
+      <div class="col-lg-6">
+
+        <div id="aboutCarousel"
+             class="carousel slide about-carousel"
+             data-bs-ride="carousel">
+
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+
+            <button type="button"
+                    data-bs-target="#aboutCarousel"
+                    data-bs-slide-to="0"
+                    class="active"></button>
+
+            <button type="button"
+                    data-bs-target="#aboutCarousel"
+                    data-bs-slide-to="1"></button>
+
+            <button type="button"
+                    data-bs-target="#aboutCarousel"
+                    data-bs-slide-to="2"></button>
+
+          </div>
+
+          <!-- Carousel Images -->
+          <div class="carousel-inner rounded-4 overflow-hidden shadow-lg">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <img src="images/dental_design_a.webp"
+                   class="d-block w-100 about-carousel-img"
+                   alt="Dental Clinic Interior">
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <img src="images/dental_desian_a1.webp"
+                   class="d-block w-100 about-carousel-img"
+                   alt="Dental Equipment">
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <img src="images/dental_desian_a2.webp"
+                   class="d-block w-100 about-carousel-img"
+                   alt="Dental Design">
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#aboutCarousel"
+                  data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#aboutCarousel"
+                  data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+  <!-- Footer -->
+<footer class="lamech-footer">
+
+  <div class="container">
+    <div class="row gy-5">
+
+      <!-- Company Info -->
+      <div class="col-lg-4 col-md-6">
+
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Lamech Logo">
+        </div>
+
+        <p class="footer-text">
+          Lamech Med Solutions<br>
+          No:29, Railway Colony 3rd Street<br>
+          Metha Nagar, Aminjikarai<br>
+          Chennai, Tamil Nadu - 600 029
+        </p>
+
+        <p class="footer-contact">
+          <strong>Contact:</strong> 044 42121128
+        </p>
+
+        <p class="footer-contact">
+          <strong>Email:</strong><br>
+          lamechmedsolutions@gmail.com<br>
+          info@lamech.co.in
+        </p>
+
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-4 col-md-6">
+
+        <h4 class="footer-title">Quick Links</h4>
+
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="interior_design.html">Services</a></li>
+          <li><a href="rental.html">Rental</a></li>
+          <li><a href="#">Refurbished Products</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-lg-4 col-md-12">
+
+        <h4 class="footer-title">Connect With Us</h4>
+
+        <p class="footer-text">
+          Follow LAMECH on social media for updates, products,
+          and latest dental innovations.
+        </p>
+
+        <div class="social-icons">
+
+          <a href="#">
+            <i class="bi bi-facebook"></i>
+          </a>
+
+          <a href="#">
+            <i class="bi bi-instagram"></i>
+          </a>
+
+          <a href="#">
+            <i class="bi bi-linkedin"></i>
+          </a>
+
+          <a href="#">
+            <i class="bi bi-youtube"></i>
+          </a>
+
+          <a href="#">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="footer-bottom">
+
+      <p>
+        © 2026 Lamech Med Solutions. All Rights Reserved.
+      </p>
+
+    </div>
+
+  </div>
+
+</footer>
+<script>
+
+  window.addEventListener("load", function () {
+
+    const loader = document.getElementById("pageLoader");
+
+    loader.style.opacity = "0";
+
+    setTimeout(() => {
+      loader.style.display = "none";
+    }, 500);
+
+  });
+
+</script>
+    <!-- Bootstrap script -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
