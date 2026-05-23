@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Lamech</title>
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- stylesheet -->
+     <link rel="stylesheet" href="/app.css">
+    <!-- script -->
+     <link rel="script" href="/script.js">
+    <!-- Boostrap CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Boostrap Icon -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+      <!-- Dental Loader -->
+  <div id="pageLoader">
+    <div class="dental-loader">
+      <i class="bi bi-heart-pulse-fill"></i>
+    </div>
+  </div>
+    <!-- navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid px-4">
+
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="Images/logo.png" alt="Lamech Logo" class="logo-img">
+    </a>
+
+    <!-- Mobile Toggle -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <!-- Navigation Links -->
+      <ul class="navbar-nav mx-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="about_us.html">About Us</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             role="button"
+             data-bs-toggle="dropdown">
+            Services
+          </a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="interior_design.html">Interior Design</a></li>
+            <li><a class="dropdown-item" href="dental_equpiment_service.html">Dental Equipment Services</a></li>
+            <!-- <li><a class="dropdown-item" href="#">Installation</a></li> -->
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="rental.html">Rental</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="refurbished.html">Refurbished Products</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contacts</a>
+        </li>
+
+      </ul>
+
+      <!-- Appointment Button -->
+      <a href="#" class="appointment-btn">
+        <i class="bi bi-calendar-event"></i>
+        Contact Now
+      </a>
+
+    </div>
+  </div>
+</nav>
+
+<!-- =========================
+     ENQUIRY CTA SECTION
+========================= -->
+
+<section class="enquiry-cta-section">
+
+  <div class="container">
+
+    <div class="enquiry-cta-box">
+
+      <span class="enquiry-mini-tag">
+        INTERIOR DESIGN CONSULTATION
+      </span>
+
+      <h1>
+        Planning a New Dental Clinic <br>
+        or Renovating an Existing One?
+      </h1>
+
+      <p>
+        Talk to LAMECH experts for complete dental clinic interiors,
+        space planning, equipment layout, civil works, cabinetry,
+        electrical planning, and turnkey execution solutions.
+      </p>
+
+      <!-- CONTACT INFO -->
+      <div class="enquiry-contact-details">
+
+        <div class="contact-detail-item">
+          <i class="bi bi-telephone-fill"></i>
+          <span>044 42121128</span>
+        </div>
+
+        <div class="contact-detail-item">
+          <i class="bi bi-envelope-fill"></i>
+          <span>lamechmedsolutions@gmail.com</span>
+        </div>
+
+        <div class="contact-detail-item">
+          <i class="bi bi-envelope-paper-fill"></i>
+          <span>info@lamech.co.in</span>
+        </div>
+
+      </div>
+
+      <!-- BUTTON -->
+      <button class="open-enquiry-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#interiorEnquiryModal">
+
+        <i class="bi bi-send-fill"></i>
+        Place an Enquiry
+
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- =========================
+     ENQUIRY MODAL
+========================= -->
+
+<div class="modal fade" id="interiorEnquiryModal" tabindex="-1">
+
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+
+    <div class="modal-content enquiry-modal">
+
+      <!-- CLOSE BUTTON -->
+      <button type="button"
+              class="custom-close-btn"
+              data-bs-dismiss="modal">
+        <i class="bi bi-x-lg"></i>
+      </button>
+
+      <!-- HEADER -->
+      <div class="modal-header enquiry-header">
+
+        <div class="header-content">
+
+          <span class="popup-mini-tag">
+            <i class="bi bi-stars"></i>
+            Premium Clinic Interiors
+          </span>
+
+          <h2>Interior Design Enquiry</h2>
+
+          <p>
+            Transform your dental clinic into a premium patient experience.
+            Share your requirements and our experts will contact you.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- BODY -->
+      <div class="modal-body enquiry-body">
+
+        <form>
+
+          <div class="row g-4">
+
+            <!-- NEW CLINIC -->
+            <div class="col-lg-6">
+
+              <div class="enquiry-glass-card">
+
+                <div class="card-top-icon">
+                  <i class="bi bi-building"></i>
+                </div>
+
+                <h4>New Clinic</h4>
+
+                <!-- FLOOR AREA -->
+                <div class="mb-4">
+
+                  <label class="form-label">
+                    Floor Area
+                  </label>
+
+                  <input type="text"
+                         class="form-control enquiry-input"
+                         placeholder="Enter floor area">
+
+                </div>
+
+                <!-- WORK REQUIRED -->
+                <div class="mb-4">
+
+                  <label class="form-label">
+                    Work Required
+                  </label>
+
+                  <div class="check-grid">
+
+                    <label><input type="checkbox"> Planning</label>
+                    <label><input type="checkbox"> Civil Work</label>
+                    <label><input type="checkbox"> Plumbing</label>
+                    <label><input type="checkbox"> Electrical</label>
+                    <label><input type="checkbox"> Flooring</label>
+                    <label><input type="checkbox"> False Ceiling</label>
+                    <label><input type="checkbox"> Partitions</label>
+                    <label><input type="checkbox"> Painting</label>
+                    <label><input type="checkbox"> Cabinets</label>
+                    <label><input type="checkbox"> Reception</label>
+                    <label><input type="checkbox"> OPG Room</label>
+                    <label><input type="checkbox"> Waiting Area</label>
+
+                  </div>
+
+                </div>
+
+                <!-- LOCATION -->
+                <div class="mb-4">
+
+                  <label class="form-label">
+                    Project Location
+                  </label>
+
+                  <input type="text"
+                         class="form-control enquiry-input"
+                         placeholder="Enter location">
+
+                </div>
+
+                <!-- PROPERTY -->
+                <div>
+
+                  <label class="form-label">
+                    Property Status
+                  </label>
+
+                  <select class="form-select enquiry-input">
+
+                    <option>Select</option>
+                    <option>Owned</option>
+                    <option>Leased</option>
+                    <option>Searching</option>
+
+                  </select>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- EXISTING CLINIC -->
+            <div class="col-lg-6">
+
+              <div class="enquiry-glass-card">
+
+                <div class="card-top-icon existing-icon">
+                  <i class="bi bi-hospital"></i>
+                </div>
+
+                <h4>Existing Clinic</h4>
+
+                <!-- FLOOR AREA -->
+                <div class="mb-4">
+
+                  <label class="form-label">
+                    Floor Area
+                  </label>
+
+                  <input type="text"
+                         class="form-control enquiry-input"
+                         placeholder="Enter floor area">
+
+                </div>
+
+                <!-- WORK -->
+                <div class="mb-4">
+
+                  <label class="form-label">
+                    Renovation Requirements
+                  </label>
+
+                  <div class="check-grid">
+
+                    <label><input type="checkbox"> Redesign</label>
+                    <label><input type="checkbox"> Renovation</label>
+                    <label><input type="checkbox"> Civil Work</label>
+                    <label><input type="checkbox"> Plumbing</label>
+                    <label><input type="checkbox"> Electrical</label>
+                    <label><input type="checkbox"> Flooring</label>
+                    <label><input type="checkbox"> False Ceiling</label>
+                    <label><input type="checkbox"> Painting</label>
+                    <label><input type="checkbox"> Cabinets</label>
+                    <label><input type="checkbox"> Reception</label>
+
+                  </div>
+
+                </div>
+
+                <!-- LOCATION -->
+                <div>
+
+                  <label class="form-label">
+                    Project Location
+                  </label>
+
+                  <input type="text"
+                         class="form-control enquiry-input"
+                         placeholder="Enter location">
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- CONTACT BOX -->
+            <div class="col-12">
+
+              <div class="premium-contact-box">
+
+                <div class="contact-title">
+
+                  <div class="contact-icon">
+                    <i class="bi bi-person-lines-fill"></i>
+                  </div>
+
+                  <div>
+                    <h3>Contact Information</h3>
+                    <p>Our design consultants will contact you shortly.</p>
+                  </div>
+
+                </div>
+
+                <div class="row g-4 mt-2">
+
+                  <div class="col-lg-4">
+
+                    <input type="text"
+                           class="form-control enquiry-input"
+                           placeholder="Full Name">
+
+                  </div>
+
+                  <div class="col-lg-4">
+
+                    <input type="email"
+                           class="form-control enquiry-input"
+                           placeholder="Email Address">
+
+                  </div>
+
+                  <div class="col-lg-4">
+
+                    <input type="tel"
+                           class="form-control enquiry-input"
+                           placeholder="Mobile Number">
+
+                  </div>
+
+                </div>
+
+                <!-- BUTTON -->
+                <button type="submit" class="submit-enquiry-btn">
+
+                  <i class="bi bi-send-fill"></i>
+
+                  Submit Enquiry
+
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+ <!-- Footer -->
+<footer class="lamech-footer">
+
+  <div class="container">
+    <div class="row gy-5">
+
+      <!-- Company Info -->
+      <div class="col-lg-4 col-md-6">
+
+        <div class="footer-logo">
+          <img src="Images/logo.png" alt="Lamech Logo">
+        </div>
+
+        <p class="footer-text">
+          Lamech Med Solutions<br>
+          No:29, Railway Colony 3rd Street<br>
+          Metha Nagar, Aminjikarai<br>
+          Chennai, Tamil Nadu - 600 029
+        </p>
+
+        <p class="footer-contact">
+          <strong>Contact:</strong> 044 42121128
+        </p>
+
+        <p class="footer-contact">
+          <strong>Email:</strong><br>
+          lamechmedsolutions@gmail.com<br>
+          info@lamech.co.in
+        </p>
+
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-4 col-md-6">
+
+        <h4 class="footer-title">Quick Links</h4>
+
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="interior_design.html">Services</a></li>
+          <li><a href="rental.html">Rental</a></li>
+          <li><a href="refurbished.html">Refurbished Products</a></li>
+          <li><a href="contact.html">Contacts</a></li>
+        </ul>
+
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-lg-4 col-md-12">
+
+        <h4 class="footer-title">Connect With Us</h4>
+
+        <p class="footer-text">
+          Follow LAMECH on social media for updates, products,
+          and latest dental innovations.
+        </p>
+
+        <div class="social-icons">
+
+          <a href="#">
+            <i class="bi bi-facebook"></i>
+          </a>
+
+          <a href="#">
+            <i class="bi bi-instagram"></i>
+          </a>
+
+          <a href="#">
+            <i class="bi bi-linkedin"></i>
+          </a>
+
+          <a href="#">
+            <i class="bi bi-youtube"></i>
+          </a>
+
+          <a href="#">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="footer-bottom">
+
+      <p>
+        © 2026 Lamech Med Solutions. All Rights Reserved.
+      </p>
+
+    </div>
+
+  </div>
+  <script>
+
+  window.addEventListener("load", function () {
+
+    const loader = document.getElementById("pageLoader");
+
+    loader.style.opacity = "0";
+
+    setTimeout(() => {
+      loader.style.display = "none";
+    }, 500);
+
+  });
+
+</script>
+</footer>
+    <!-- Bootstrap script -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

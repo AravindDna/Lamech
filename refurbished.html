@@ -3,8 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Lamech</title>
+    <title>Lamech</title>
     <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
     <!-- stylesheet -->
      <link rel="stylesheet" href="/app.css">
     <!-- script -->
@@ -15,18 +21,18 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
-       <!-- Dental Loader -->
+         <!-- Dental Loader -->
   <div id="pageLoader">
     <div class="dental-loader">
       <i class="bi bi-heart-pulse-fill"></i>
     </div>
-  </div>   
-       <!-- navbar -->
+  </div>
+    <!-- navbar -->
 <nav class="navbar navbar-expand-lg custom-navbar">
   <div class="container-fluid px-4">
 
     <!-- Logo -->
-    <a class="navbar-brand d-flex align-items-center" href="#">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
       <img src="Images/logo.png" alt="Lamech Logo" class="logo-img">
     </a>
 
@@ -89,149 +95,168 @@
     </div>
   </div>
 </nav>
+<!-- REFURBISHED EQUIPMENT SECTION -->
+<section class="refurbished-section">
 
- <!-- INTERIORS & FACILITY PLANNING SECTION -->
-<section class="interior-section">
+  <!-- Glow Elements -->
+  <div class="refurbished-glow glow-1"></div>
+  <div class="refurbished-glow glow-2"></div>
 
-  <div class="container">
+  <div class="container position-relative">
 
-    <div class="row align-items-center g-5">
+    <div class="row align-items-center gy-5">
 
       <!-- LEFT CONTENT -->
       <div class="col-lg-6">
 
-        <span class="interior-tag">
-          INTERIORS & FACILITY PLANNING
+        <span class="refurbished-tag">
+          CERTIFIED REFURBISHED EQUIPMENT
         </span>
 
-        <h2 class="interior-title">
-          Creating Premium Dental Spaces <br>
-          That Inspire Trust & Comfort
+        <h2 class="refurbished-title">
+          Premium Dental Equipment <br>
+          <span>Without Premium Pricing</span>
         </h2>
 
-        <p class="interior-text">
-          <strong>LAMECH Med Solutions</strong> specializes in designing modern,
-          functional, and visually appealing dental clinics tailored to your
-          workflow and brand identity. We combine innovative interior concepts,
-          ergonomic planning, and advanced dental equipment integration to
-          create spaces that elevate both patient experience and clinical
-          efficiency.
+        <p class="refurbished-text">
+          LAMECH is a trusted leader in refurbished and pre-owned
+          dental equipment solutions, delivering high-performance
+          clinical technology at highly competitive pricing.
+          Every unit is professionally inspected, restored,
+          calibrated, and tested to OEM standards to ensure
+          dependable performance that feels like new.
         </p>
 
-        <p class="interior-text">
-          Whether you are building a completely new dental clinic or renovating
-          an existing practice, LAMECH provides complete turnkey solutions —
-          from facility planning and operatory layouts to interiors, lighting,
-          furniture, and equipment placement.
-        </p>
+        <!-- FEATURE GRID -->
+        <div class="refurbished-features">
 
-        <!-- FEATURE BOX -->
-        <div class="highlight-box">
+          <div class="refurbished-feature-card">
+            <div class="feature-icon">
+              <i class="bi bi-patch-check-fill"></i>
+            </div>
 
-          <h4>
-            Why Choose LAMECH?
-          </h4>
-
-          <div class="highlight-item">
-            <i class="bi bi-check-circle-fill"></i>
-            Complete One Stop Solution for Dental Clinics
+            <div>
+              <h4>OEM Certified Quality</h4>
+              <p>
+                Fully restored and tested to original
+                manufacturer specifications.
+              </p>
+            </div>
           </div>
 
-          <div class="highlight-item">
-            <i class="bi bi-check-circle-fill"></i>
-            Customized Interior Concepts Matching Your Vision
+          <div class="refurbished-feature-card">
+            <div class="feature-icon">
+              <i class="bi bi-cash-stack"></i>
+            </div>
+
+            <div>
+              <h4>Cost Effective</h4>
+              <p>
+                Save significantly while getting premium
+                clinical performance.
+              </p>
+            </div>
           </div>
 
-          <div class="highlight-item">
-            <i class="bi bi-check-circle-fill"></i>
-            Fast & Efficient Project Execution
+          <div class="refurbished-feature-card">
+            <div class="feature-icon">
+              <i class="bi bi-tools"></i>
+            </div>
+
+            <div>
+              <h4>Professionally Serviced</h4>
+              <p>
+                Repair, calibration, and inspection completed
+                by experienced engineers.
+              </p>
+            </div>
           </div>
 
-          <div class="highlight-item">
-            <i class="bi bi-check-circle-fill"></i>
-            90+ Successfully Completed Projects Across India
-          </div>
+          <div class="refurbished-feature-card">
+            <div class="feature-icon">
+              <i class="bi bi-shield-check"></i>
+            </div>
 
-          <div class="highlight-item">
-            <i class="bi bi-check-circle-fill"></i>
-            Advanced Dental Equipment Planning & Integration
+            <div>
+              <h4>Reliable Performance</h4>
+              <p>
+                Equipment performance verified for long-term
+                clinical usage.
+              </p>
+            </div>
           </div>
 
         </div>
 
-        <!-- CTA -->
-        <div class="interior-cta">
+        <!-- CTA BUTTONS -->
+        <div class="refurbished-buttons">
 
-          <h5>
-            Let LAMECH Turn Your Dream Clinic Into Reality
-          </h5>
+          <a href="#" class="refurbished-btn-primary">
+            <i class="bi bi-cart-check"></i>
+            Explore Products
+          </a>
 
-          <p>
-            Schedule your facility planning and interior consultation today.
-          </p>
-
-          <a href="tel:9566033122" class="interior-btn">
-            <i class="bi bi-telephone-fill"></i>
-            Call Now : 95660 33122
+          <a href="#" class="refurbished-btn-secondary">
+            <i class="bi bi-whatsapp"></i>
+            Talk To Expert
           </a>
 
         </div>
 
       </div>
 
-      <!-- RIGHT DESIGN -->
-      <div class="col-lg-6">
+      <!-- RIGHT IMAGE SIDE -->
+<div class="col-lg-6">
 
-        <div class="interior-image-wrapper">
+  <div class="refurbished-image-wrapper">
 
-          <!-- Main Image -->
-          <img src="Images/interior_design_3.webp"
-               alt="Dental Clinic Interior"
-               class="interior-image">
+    <!-- MAIN IMAGE -->
+    <img src="Images/refurbished.jpg"
+         alt="Refurbished Dental Equipment"
+         class="refurbished-main-image">
 
-          <!-- Floating Card 1 -->
-          <div class="floating-card card-one">
+    <!-- Floating Card 1 -->
+    <div class="refurb-card ref-card-1">
 
-            <div class="floating-icon">
-              <i class="bi bi-hospital"></i>
-            </div>
+      <div class="refurb-icon">
+        <i class="bi bi-shield-check"></i>
+      </div>
 
-            <div>
-              <h5>Modern Clinic Design</h5>
-              <p>
-                Smart layouts designed for patient comfort and workflow efficiency.
-              </p>
-            </div>
-
-          </div>
-
-          <!-- Floating Card 2 -->
-          <div class="floating-card card-two">
-
-            <div class="floating-icon">
-              <i class="bi bi-stars"></i>
-            </div>
-
-            <div>
-              <h5>Premium Interiors</h5>
-              <p>
-                Elegant and professional spaces built for modern dentistry.
-              </p>
-            </div>
-
-          </div>
-
-        </div>
-
+      <div>
+        <h5>OEM Certified</h5>
+        <p>
+          Fully tested and restored to manufacturer standards.
+        </p>
       </div>
 
     </div>
 
+    <!-- Floating Card 2 -->
+    <div class="refurb-card ref-card-2">
+
+      <div class="refurb-icon">
+        <i class="bi bi-cash-stack"></i>
+      </div>
+
+      <div>
+        <h5>Save Up To 60%</h5>
+        <p>
+          Premium equipment at significantly lower investment.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Floating Badge -->
+    <div class="refurb-badge">
+      Trusted By Clinics Across India
+    </div>
+
   </div>
 
+</div>
+
 </section>
-
-
      <!-- Footer -->
 <footer class="lamech-footer">
 
@@ -328,12 +353,7 @@
     </div>
 
   </div>
-
-</footer>
-     <!-- Bootstrap script -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
-    <script>
+  <script>
 
   window.addEventListener("load", function () {
 
@@ -348,5 +368,8 @@
   });
 
 </script>
-    </body>
+</footer>
+    <!-- Bootstrap script -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
 </html>
